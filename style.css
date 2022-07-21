@@ -1,0 +1,200 @@
+.main-container {
+  font-family: "Quicksand", sans-serif;
+  /* width: 1240px; */
+  padding: 0 auto;
+  margin: 0;
+}
+.main-container {
+  margin-left: 100px;
+}
+ul {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.navright li:hover {
+  cursor: pointer;
+  color: #272042;
+}
+.navright {
+  line-height: 22.5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navright li {
+  color: #8b8ba5;
+  height: 200;
+  display: inline-block;
+  margin: 0;
+}
+.navright li:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #fbe0dc;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.navright li:hover:after {
+  transform: scaleX(1);
+}
+.navright li.fromRight:after {
+  transform-origin: 100% 50%;
+}
+.navright li.fromLeft:after {
+  transform-origin: 0% 50%;
+}
+.navright > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.kitchenbtn {
+  background: #fbe0dc;
+  padding: 13px 30px;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.kitchenbtn:hover {
+  background: #d7a7c2;
+  cursor: pointer;
+}
+.navright {
+  margin-right: 150px;
+}
+.navleft > h3 {
+  line-height: 35px;
+  font-size: 28px;
+  margin-left: 50px;
+}
+.navleft h3:hover {
+  color: red;
+  cursor: pointer;
+}
+.slogan-main {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  line-height: 60px;
+}
+.slogan-left {
+  padding-top: 156px;
+  width: 40%;
+  padding-left: 50px;
+}
+.slogan-left h1 {
+  font-size: 46px;
+  line-height: 70px;
+  padding-left: 50px;
+  width: 90%;
+}
+.slogan-left > p {
+  line-height: 34px;
+  color: #8b8ba5;
+  padding-bottom: 40px;
+  width: 65%;
+  padding-left: 50px;
+}
+.slogan-right {
+  width: 60%;
+  margin-right: 150px;
+}
+.rectangle {
+  position: absolute;
+  width: 77px;
+  left: 205px;
+  top: 342px;
+  height: 8px;
+  background: #fbe0dc;
+  border-radius: 100px;
+}
+.decidebtn {
+  border: 1px solid transparent;
+  background: #f7c531;
+  padding: 15px 50px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+.decidebtn:hover {
+  cursor: pointer;
+  border: 1px solid red;
+}
+.slogan-right > img {
+  padding-top: 106px;
+}
+.products-container {
+  text-align: center;
+  padding-top: 145px;
+  justify-content: space-between;
+  justify-self: self-end;
+}
+
+.products-bar ul {
+  list-style: none;
+}
+.products-bar ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li {
+  border-radius: 2px;
+  color: rgb(29, 26, 26);
+  display: inline-block;
+}
+li:after {
+  display: block;
+  content: "";
+  border-bottom: 3px solid #f7c531;
+  transform: scaleX(0);
+}
+li:hover:after {
+  transform: scaleX(0.7);
+}
+
+li:hover {
+  color: #f7c531;
+  cursor: pointer;
+}
+.products-bar {
+  padding-top: 30px;
+}
+.chef-section {
+  line-height: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.images img {
+  border-radius: 20px;
+}
+.images h4 {
+  color: #272042;
+}
+.images h6 {
+  color: #8b8ba5;
+}
+.chef {
+  text-align: center;
+}
+.chef h3 {
+  font-weight: 400;
+  width: 52%;
+  height: 200px;
+  font-size: 36px;
+  padding-top: 256px;
+  padding-left: 330px;
+  color: #272042;
+}
+.chefinfo img {
+  border-radius: 40px;
+}
